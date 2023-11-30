@@ -1,4 +1,5 @@
 import Card from "./Card"
+import Button from "./ButtonComponent"
 
 function App() {
   return(
@@ -6,6 +7,9 @@ function App() {
       <Card />
       <Card />
       <Card />
+      <div>
+      <Button />
+      </div>
     </div>
   )
  }
